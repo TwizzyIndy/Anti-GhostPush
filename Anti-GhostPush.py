@@ -40,6 +40,7 @@ def main() :
 
 	print 'Pushing busybox ...'
 	os.system('adb push busybox /data/local/tmp')
+	os.system("adb shell su -c 'chmod 644 /data/local/tmp/busybox")
 	os.system("adb shell su -c '/data/local/tmp/busybox mount -o remount,rw /system'")
 	os.system("adb shell su -c 'cat /data/local/tmp/busybox >/system/bin/busybox'")
 	os.system("adb shell su -c 'chmod 644 /system/bin/busybox'")
