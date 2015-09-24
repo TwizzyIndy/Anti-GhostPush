@@ -1,3 +1,3 @@
 # Anti-GhostPush
-MonkeyTest and TimeService RiskWares Removal and Protection Tool
+Removal and protection tool for MonkeyTest and TimeService Android riskwares.
 License under Apache 2.0.
