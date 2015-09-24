@@ -59,7 +59,7 @@ def main() :
 	print 'BINGO !!!'
 	print 'ur device will gettin reboot ..'
 
-	#os.system('adb reboot')
+	os.system('adb reboot')
 	print 'bye ...'
 	
 	sys.exit(0)
