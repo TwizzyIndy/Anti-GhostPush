@@ -38,6 +38,9 @@ def main() :
 	print 'http://mof.asia/forum.php'
 	print ''
 
+	print 'Waitin for device..'
+	os.system('adb wait-for-device')
+	
 	print 'Pushing busybox ...'
 	os.system('adb push busybox /data/local/tmp')
 	os.system("adb shell su -c 'chmod 777 /data/local/tmp/busybox'")
